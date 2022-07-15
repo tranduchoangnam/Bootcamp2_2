@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap');
+
+.imgstr{
+    width:59px;
+    height:59px;
+    border-radius:50%;
+    border: 2px solid white;
+    cursor: pointer;
+}
+.user{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15px;
+    width: 100%;
+    font-size: 12px;
+    margin-top:5px;
+
+}
+
+.post{
+    display: grid;
+    grid-template-rows:60px auto 50px 20px auto 20px 50px 50px;
+    grid-gap: 0px;
+    width: 100%;
+    height: auto;
+    background-color: white;
+    border: 1px solid rgb(214,214,214);
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 15px;
+}
+.box{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.box .avatar{
+    height: 40px;
+    width: 40px;
+    margin-left:10px;
+}
+.box .imgstr{
+    width: 36px;
+    height: 36px;
+}
+.box .user{
+    position: absolute;
+    font-weight: 500;
+    font-family: 'Roboto';
+    width: 100px;
+    height: 16px;
+    font-size:14px;
+    margin-top: 15px;
+    margin-left: 55px;
+    justify-content: left;
+    align-items: center;
+}
+.box .icon{
+    margin-right: 15px;
+    width: 15px;
+    height: 15px;
+}
+.pic{
+    display:flex;
+    margin-top:0;
+    width: 100%;
+    height: auto;
+}
+.react{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin-top:10px;
+    justify-content: space-between;
+}
+.react .icon{
+    margin-left: 15px;
+    width: 23px;
+    height: 23px;
+}
+.left{
+    margin-left:15px;
+}
+.right{
+    margin-right:15px;
+}
+.name{
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    margin-left:15px;
+}
+.caption{
+    font-family: 'Lucida Grande';
+    font-size: 13px;
+}
+.view{
+    font-family: sans-serif;
+    font-size:15px;
+    margin-top:5px;
+    color:rgb(142,142,142);
+    cursor: pointer;
+}
+.day{
+    display:flex;
+    font-family: 'Roboto';
+    font-weight:300;
+    margin-top:15px;
+    font-size:11px;
+    border-bottom: 1px solid rgb(239,239,239);
+}
+.comment{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+.comment-left {
+    display:flex;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    justify-content: left;
+}
+.input-comment{
+    display:flex;
+    margin-left:10px;
+    width: 260px;
+    height: 35px;
+    border: none;
+    border-radius: 8px;
+    font-size: 14px;
+    background: none;
+}
+.post-button{
+    cursor: pointer;
+    color: rgb(65,145,240);
+}

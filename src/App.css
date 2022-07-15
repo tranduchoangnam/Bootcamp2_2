@@ -1,0 +1,28 @@
+.base{
+  width: 100%;
+  margin-top:60px;
+  height:auto;
+  justify-content: center;
+  display: flex;
+  background-color: rgb(250,250,250);
+  font-family: 'Lucida Grande';
+}
+.main{
+  width: 840px;
+  height:auto;
+  display: grid;
+  margin-top: 15px;
+  grid-template-columns: 58% 38%;
+  grid-gap: 4%;
+}
+.bar-left{
+  margin:0;
+  width: 100%;
+  height: auto;
+  
+}
+.bar-right{
+  margin:0;
+  width: 100%;
+  height: auto;
+}
